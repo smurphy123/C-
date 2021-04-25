@@ -1,0 +1,15 @@
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.exe
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.deps.json
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.runtimeconfig.json
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.runtimeconfig.dev.json
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.dll
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerUI.pdb
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csprojAssemblyReference.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.TournamentViewerForm.resources
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.GenerateResource.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.AssemblyInfoInputs.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.AssemblyInfo.cs
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.CoreCompileInputs.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.dll
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.pdb
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.genruntimeconfig.cache
