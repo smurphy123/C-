@@ -13,3 +13,7 @@ C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\T
 C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.dll
 C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.pdb
 C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.genruntimeconfig.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreatePrizeForm.resources
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTeamForm.resources
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTournamentForm.resources
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\TournamentTracker\TornamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.TournamentDashboardForm.resources
