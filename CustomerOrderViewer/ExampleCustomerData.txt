@@ -1,0 +1,20 @@
+Example Customer Data
+
+CustomerId: 1
+FirstName: Lawrence
+MiddleName: NULL
+LastName: Keener
+Age: 27
+
+Example Item Data
+
+ItemId: 1
+Description: Duracell Alkaline AA Batteris
+Price: 15.99
+
+CutomerOrder Data Example
+
+CustomerOrderId: 1
+
+CustomerId: 1
+ItemId: 1
