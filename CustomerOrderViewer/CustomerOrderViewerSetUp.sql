@@ -21,8 +21,8 @@ CREATE TABLE [dbo].[CustomerOrder] (
 	CustomerId INT NOT NULL,
 	ItemId INT NOT NULL,
 	PRIMARY KEY (CustomerOrderId),
-	FOREIGN KEY (CustomerId) REFERENCES Customer(CustomerId) ON DELTE CASCADE,
-	FOREIGN KEY (ItemId) REFERENCES Item (ItemId) ON DELETE CASCADE
+	FOREIGN KEY (CustomerId) REFERENCES Customer(CustomerId),
+	FOREIGN KEY (ItemId) REFERENCES Item (ItemId)
 );
 
 INSERT INTO [dbo].[Customer] (FirstName, MiddleName, LastName, Age) VALUES ('Lynette', NULL, 'Snyder', 34);
