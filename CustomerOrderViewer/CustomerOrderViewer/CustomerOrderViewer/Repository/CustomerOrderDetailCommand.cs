@@ -30,7 +30,18 @@ namespace CustomerOrderViewer.Repository
                         {
                             while (reader.Read())
                             {
-                                string firstname = reader["FirstName"].ToString();
+                                CustomerOrderDetailModel customerOrderDetailModel = new CustomerOrderDetailModel();
+                                {
+                                    CustomerOrderId = Convert.ToInt32(reader["customerOrderId"]),
+                                    CustomerId = Convert.ToInt32(reader["customerId"]),
+                                    ItemId = Convert.ToInt32(reader["ItemId"]),
+                                    FirstName = reader["FirstName"].ToString(),
+                                    LastName = reader["LastName"].ToString(),
+                                    Description = reader["Description"].ToString(),
+                                    Price = Convert.ToDecimal(reader["Price"])
+                                };
+
+                                customerOrderDetailModels.Add(customerOrderDetailModel);
                             }
                         }
                     }
