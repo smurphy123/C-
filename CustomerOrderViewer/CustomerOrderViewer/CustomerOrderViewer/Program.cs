@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CustomerOrderViewer.Models;
+using CustomerOrderViewer.Repository;
+using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 
 namespace CustomerOrderViewer
@@ -7,7 +10,9 @@ namespace CustomerOrderViewer
     {
         static void Main(string[] args)
         {
-            
+            CustomerOrderDetailCommand customerOrderDetailCommand = new CustomerOrderDetailCommand(@"Data Source=localhost;Initial Catalog=CustomerOrderViewer;Integrated Security=True");
+
+            IList<CustomerOrderDetailModel> customerOrderDetailModels = customerOrderDetailCommand.GetLsit();
         }
     }
 }
