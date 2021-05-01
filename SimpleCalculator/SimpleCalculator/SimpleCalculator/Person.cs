@@ -16,5 +16,10 @@ namespace SimpleCalculator
         {
             _age = newAge;
         }
+
+        static public void greet()
+        {
+            Console.WriteLine("Hello!");
+        }
     }
 }
