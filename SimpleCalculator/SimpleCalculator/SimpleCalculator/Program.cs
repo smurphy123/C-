@@ -6,13 +6,15 @@ namespace SimpleCalculator
     {
         static void Main(string[] args)
         {
-            Person person1 = new Person();
+            string input = Console.ReadLine();
 
-            Console.WriteLine(person1.getAge());
-            person1.setAge(29);
-            Console.WriteLine(person1.getAge());
+            int convertedNumber;
+            bool isConvertedSuccessfully = int.TryParse(input, out convertedNumber);
 
-            Person.greet();
+            if (!isConvertedSuccessfully)
+            {
+                throw new Exception("Conversion was not successful.")
+            }
         }
     }
 }
