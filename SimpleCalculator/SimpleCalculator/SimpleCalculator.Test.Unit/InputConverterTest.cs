@@ -13,6 +13,15 @@ namespace SimpleCalculator.Test.Unit
         {
             string inputNumber = "5";
             double convertedNumber = _inputConverter.ConvertInputToNumeric(inputNumber);
+            Assert.AreEqual(5, convertedNumber);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void FailsToConvertValidStringInputIntoDouble()
+        {
+            string inputNumber = "$";
+            double convertedNumber = _inputConverter.ConvertInputToNumeric(inputNumber);
         }
     }
 }
