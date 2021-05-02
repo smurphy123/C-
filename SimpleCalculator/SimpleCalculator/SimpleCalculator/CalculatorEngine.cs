@@ -29,7 +29,6 @@ namespace SimpleCalculator
                     break;
                 default:
                     throw new InvalidOperationException("Specified operation is not recognized.");
-
             }
             return result;
         }
