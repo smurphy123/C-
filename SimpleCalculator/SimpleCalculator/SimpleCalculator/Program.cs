@@ -6,15 +6,24 @@ namespace SimpleCalculator
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-
-            int convertedNumber;
-            bool isConvertedSuccessfully = int.TryParse(input, out convertedNumber);
-
-            if (!isConvertedSuccessfully)
+            try
             {
-                throw new Exception("Conversion was not successful.")
+                InputConverter inputConverter = new InputConverter();
+                CalculatorEngine calculatorEngine = new CalculatorEngine();
+
+                double firstNumber = inputConverter.ConvertInputToNumeric(Console.ReadLine());
+                double secondNumber = inputConverter.ConvertInputToNumeric(Console.ReadLine());
+                string operation = Console.ReadLine();
+
+                double result = calculatorEngine.Calculate(operation, firstNumber, secondNumber);
+
+                Console.WriteLine(result);
             }
-        }
+            catch (Exception ex)
+            {
+                // TODO: start logging exceptions
+                Console.WriteLine(ex.Message);
+            }
+        } 
     }
 }
