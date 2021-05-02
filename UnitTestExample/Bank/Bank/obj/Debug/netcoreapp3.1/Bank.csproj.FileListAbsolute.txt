@@ -1,0 +1,13 @@
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.exe
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.deps.json
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.runtimeconfig.json
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.runtimeconfig.dev.json
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.dll
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\bin\Debug\netcoreapp3.1\Bank.pdb
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.csprojAssemblyReference.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfoInputs.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.AssemblyInfo.cs
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.csproj.CoreCompileInputs.cache
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.dll
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.pdb
+C:\Users\smurp\OneDrive\Documents\GitHub\C#\UnitTestExample\Bank\Bank\obj\Debug\netcoreapp3.1\Bank.genruntimeconfig.cache
