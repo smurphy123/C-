@@ -10,14 +10,13 @@ namespace WordUnscrambler
     {
         static void Main(string[] args)
         {
-            List<int> myFirstList = new List<int>();
-
-            Console.WriteLine(myFirstList.Count());
-
-            myFirstList.Add(10);
-            myFirstList.Add(5);
-
-            Console.WriteLine(myFirstList.Count());
+            int[] myArray = { 7, 8, 4, 5, 15 };
+            Array.Sort(myArray);
+    
+            foreach (var element in myArray)
+            {
+                Console.WriteLine(element);
+            }
         }
     }
 }
