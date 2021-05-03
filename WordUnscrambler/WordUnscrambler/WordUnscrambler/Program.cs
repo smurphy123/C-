@@ -10,13 +10,14 @@ namespace WordUnscrambler
     {
         static void Main(string[] args)
         {
-            int[] myArray = { 7, 8, 4, 5, 15 };
-            Array.Sort(myArray);
-    
-            foreach (var element in myArray)
-            {
-                Console.WriteLine(element);
-            }
+            int a = 10;
+            ChangeNumber(a);
+            Console.WriteLine(a);
+        }
+
+        static void ChangeNumber(int a)
+        {
+            a = 90;
         }
     }
 }
