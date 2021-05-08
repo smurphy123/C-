@@ -4,11 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using WordUnscrambler.Workers;
 
 namespace WordUnscrambler
 {
     class Program
     {
+        private static readonly FileReader _fileReader = new FileReader();
+        private static readonly WordMatcher _wordMatcher = new WordMatcher();
+        private const string wordListFileName = "wordlist.txt";
         static void Main(string[] args)
         {
             bool continueWordUnscramble = true;
@@ -64,7 +68,19 @@ namespace WordUnscrambler
         {
             string[] wordList = _fileReader.Read(wordListFileName);
 
-            Listt<MatchedWord> matchedWords = _wordMatcher.Match();
+            List<MatchedWord> matchedWords = _wordMatcher.Match();
+
+            if(matchedWords.Any())
+            {
+                foreach (var matchedWord in matchedWords)
+                {
+                    Console.WriteLine("Match found for {0}: {1}", matchedWord.ScrambledWord, matchedWord.Word);
+                }
+            } 
+            else
+            {
+                Console.WriteLine("No matches have been found.");
+            }
         }
     }
 }
