@@ -32,29 +32,39 @@ namespace WordUnscrambler
                         break;
                 }
 
-                var continueWordUnscrambleDecision = string.Empty;
+                var continueDecision = string.Empty;
                 do
                 {
                     Console.WriteLine("Do you want to continue? Y/N");
-                    continueWordUnscrambleDecision = (Console.ReadLine() ?? string.Empty);
-
+                    continueDecision = (Console.ReadLine() ?? string.Empty);
                 } while (
-                    !continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && 
-                    !continueWordUnscrambleDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
+                    !continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase) && 
+                    !continueDecision.Equals("N", StringComparison.OrdinalIgnoreCase));
 
-                continueWordUnscramble = continueWordUnscrambleDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
+                continueWordUnscramble = continueDecision.Equals("Y", StringComparison.OrdinalIgnoreCase);
 
             } while (continueWordUnscramble);
         }
 
         private static void ExecuteScrambledWordsManualEntryScenario()
         {
-            throw new NotImplementedException();
+            var manualInput = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = manualInput.Split(',');
+            DisplayMatchedUnscrambledWords(scrambledWords);
         }
 
         private static void ExecuteScrambledWordsInFileScenario()
         {
-            throw new NotImplementedException();
+            var filename = Console.ReadLine() ?? string.Empty;
+            string[] scrambledWords = _fileReader.Read(filename);
+            DisplayMatchedUnscrambledWords(scrambledWords);
+        }
+
+        private static void DisplayMatchedUnscrambledWords(string[] scrambledWords)
+        {
+            string[] wordList = _fileReader.Read(wordListFileName);
+
+            Listt<MatchedWord> matchedWords = _wordMatcher.Match();
         }
     }
 }
