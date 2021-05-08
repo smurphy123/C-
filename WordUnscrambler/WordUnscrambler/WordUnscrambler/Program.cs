@@ -11,11 +11,11 @@ namespace WordUnscrambler
         static void Main(string[] args)
         {
             int a = 10;
-            ChangeNumber(a);
+            ChangeNumber(ref a);
             Console.WriteLine(a);
         }
 
-        static void ChangeNumber(int a)
+        static void ChangeNumber(ref int a)
         {
             a = 90;
         }
