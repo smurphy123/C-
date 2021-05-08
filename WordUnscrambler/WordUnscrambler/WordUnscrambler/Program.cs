@@ -11,13 +11,23 @@ namespace WordUnscrambler
     {
         static void Main(string[] args)
         {
-            string[] lines = { "This is the first line", "This is the second line", "This is the third line" };
-            File.WriteAllLines("MyFirstFile.txt", lines);
+            string[] lines = { "First line", "second line", "Third line" };
+            File.WriteAllLines("FormattedFile.txt", formatLines(lines));
 
-            string[] fileContents = File.ReadAllLines("MyFirstFile.txt");
-
-            foreach (string line in File.ReadLines("MyFirstFile.txt"));
+            string[] otherLines = { "Another first line", "Another second line", "Another third line" };
+            File.WriteAllLines("AnotherFormattedFile.txt", formatLines(otherLines));
         }
 
+        static string[] formatLines(string[] unformattedLines)
+        {
+            string[] formattedLines = new string[unformattedLines.Length];
+
+            for(int i = 0; i < formattedLines.Length; i++)
+            {
+                formattedLines[i] = String.Format("{0} {1} {2}", "***", unformattedLines[i], "***");
+            }
+
+            return formattedLines;
+        }
     }
 }
