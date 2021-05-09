@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace WordUnscrambler
 {
     class Constants
@@ -11,7 +8,7 @@ namespace WordUnscrambler
         
         public const string EnterScrambledWordsViaFile = "Enter full path including the file name: ";
         public const string EnterScrambledWordsManually = "Enter word(s) manually (separated by commas): ";
-        public const string EnterScrambledWordsOptionnotRecognized = "The option you entered was not recognized.";
+        public const string EnterScrambledWordsOptionNotRecognized = "The option you entered was not recognized.";
         
         public const string ErrorScrambledWordsCannotBeLoaded = "Scrambled words cannot be loaded because there was an error: ";
         public const string ErrorProgramWillBeTerminated = "The program will be terminated: ";
@@ -20,6 +17,10 @@ namespace WordUnscrambler
         public const string MatchNotFound = "NO MATCHES HAVE BEEN FOUND";
 
         public const string Yes = "Y";
-        public const string NO = "N";
+        public const string No = "N";
+        public const string File = "F";
+        public const string Manual = "M";
+
+        public const string WordListFileName = "wordlist.txt";
     }
 }
